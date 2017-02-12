@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0EA609719A73F2AD3251E2ED91FCA2 /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1B477683825DB1F2A8D239B9BC56B /* PopupDialog+Keyboard.swift */; };
+		19AE2E7AE72E3CA9DDE61942C1D41F9F /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A59B2F0AC779785004CD295BA5927 /* PresentationController.swift */; };
+		1A31DC6AC7E918B78202BB4421E3C439 /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B4770F34AF0B18CE182BA3F24ADC9 /* PopupDialogDefaultButtons.swift */; };
+		1A4F86C358D1E51E88508157226F1AC1 /* Pods-NightmaresTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F99214DCAF5C39CA86808099FEC0E9AE /* Pods-NightmaresTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355749023092DF24DA23B5951C4F8D42 /* Pods-Nightmares-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D330C61D47C9698106FD3CA9053FDE4F /* Pods-Nightmares-dummy.m */; };
+		356D652945CE828C6C2FF5F8E7F14702 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CFCFAEB1588F2D5A2A4F4B18E683EE /* PopupDialog-dummy.m */; };
+		405C7FDCD420FF72F5C690F24E2B6B9C /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F479277725D5005EF246CDC4917C38 /* PopupDialog.swift */; };
+		41EE87A55E249349671727D1A586FA8B /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5309466DE50CA169B15A754F936703 /* TransitionAnimations.swift */; };
+		44ACD550598CB5FC979326616CEB0B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4A22ADB6338B693667D0B55F7DF891AB /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F575662234000EA80FCB79B3447B7F /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		595E34C07A276063E72BEEAFE14A4487 /* Pods-NightmaresTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3822C6599FCDFEB74463CB144671D25 /* Pods-NightmaresTests-dummy.m */; };
+		61BD6B845B5824955DFC1794DC58AACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6250BDEB086A60CE5D9E3C96DFA394C3 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49682067F6C4D1CF80771EF845766596 /* InteractiveTransition.swift */; };
+		650D627F785802E45DFD67DA7C12CB78 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A9B644D4179C6A3AC023E41E1CA839 /* PopupDialogDefaultView.swift */; };
+		7016D7613322EE2598EEDFEB0C83E342 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D7F87A590564548A61661C1954652 /* PresentationManager.swift */; };
+		7249C52653225BE63F0828FDDADC2461 /* Pods-NightmaresUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5869E98128886A7B150E2DF3222785 /* Pods-NightmaresUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81289DE2FA56CFEDDC5C4943336538B5 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685763E94EFB56A907AF403D0B795251 /* UIImageView+Calculations.swift */; };
+		88730E7B238AA0C6AB6E43573513B29E /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA81510A571388638680BCB7AD583B1 /* PopupDialogContainerView.swift */; };
+		8920EBC02901845BE78E5F6DB6638945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8B9A96DD818C807D14FF453B1DE64222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		976B8B6B7F579353BDDFC38C9475B01E /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */; };
+		BC47E49913FF7320412AA7053E8E786B /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7F239C94E350ED68E632178D97FD /* TransitionAnimator.swift */; };
+		C4AEC3D10F6FD6EBF0478B1CE3692500 /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6AB5983422D51E4577226940D69E3B /* PopupDialogDefaultViewController.swift */; };
+		C7FEAFC5CB8FB1EEEB7C9D8CFAB33B13 /* Pods-Nightmares-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6911152D92B34941620C4495E8A6C9C /* Pods-Nightmares-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C81710B1AA457B39BA74DD376E41497C /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171ED3B961E5C77913A4C2B460F11C89 /* PopupDialogButton.swift */; };
+		CEEFC36CF7975DD70DB5B733DD6DDCB1 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE738E674D920435D80DA1143F918A6 /* UIView+Animations.swift */; };
+		D6798FC2CB13BC0FCC85EFB92A9442F0 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1B7DEB5C0B9219AB7DDF2BFD82D14 /* PopupDialogOverlayView.swift */; };
+		E7737F9704C16A2C3C379D721B68D9E3 /* Pods-NightmaresUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F61B87BBC9F3F07A23E5A2E916E1146C /* Pods-NightmaresUITests-dummy.m */; };
+		EBB22E1E2F70BC1202CC7F0ED5EBCE05 /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D358A3613EB08F0370C32C0BAC75DD /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56AF6E46E6249CAF543D2D2DF480142 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6857CA437C74A08BD6C3E00D30DC833 /* FXBlurView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA406276BF9C45AA5CA3D9168A321424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA970C7CA99412A611BFBEBE97925B86;
+			remoteInfo = PopupDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034A4A55A18DF7BD2A9ED451C8F98619 /* Pods-NightmaresUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NightmaresUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03D358A3613EB08F0370C32C0BAC75DD /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = PopupDialog/Classes/FXBlurView.h; sourceTree = "<group>"; };
+		070A59B2F0AC779785004CD295BA5927 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		09A9B644D4179C6A3AC023E41E1CA839 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		09EAFD63940638C95AE58C72EFCC980E /* Pods-Nightmares.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightmares.debug.xcconfig"; sourceTree = "<group>"; };
+		0AA81510A571388638680BCB7AD583B1 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		0C14EFD8D3E797080DDD6CC06A29CCCE /* Pods-Nightmares-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightmares-frameworks.sh"; sourceTree = "<group>"; };
+		0D3736578870D4168EBDAD205DA66ABF /* Pods-NightmaresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NightmaresUITests.release.xcconfig"; sourceTree = "<group>"; };
+		171ED3B961E5C77913A4C2B460F11C89 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		19F7254F183418D1C0BC66F2DE0BDD2D /* Pods-NightmaresTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NightmaresTests.modulemap"; sourceTree = "<group>"; };
+		1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		22B1B7DEB5C0B9219AB7DDF2BFD82D14 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		32DEB022107A15F570B24DE94D82634C /* Pods-NightmaresUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NightmaresUITests-frameworks.sh"; sourceTree = "<group>"; };
+		34F479277725D5005EF246CDC4917C38 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		377A66128D697F1AB214C90D366AF7F2 /* Pods_NightmaresUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NightmaresUITests.framework; path = "Pods-NightmaresUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C010FB6A31F8B70BB6A242C3EE8744 /* Pods-Nightmares-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightmares-resources.sh"; sourceTree = "<group>"; };
+		41F610C42EBBB71176FD6A3A80ECB7B4 /* Pods-Nightmares-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightmares-acknowledgements.plist"; sourceTree = "<group>"; };
+		435F2A7AED8D9260FE0C5712589AEC09 /* Pods-NightmaresTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NightmaresTests-resources.sh"; sourceTree = "<group>"; };
+		44FB7FB8E56C689881DAB866AD37BA5E /* Pods_NightmaresTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NightmaresTests.framework; path = "Pods-NightmaresTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49682067F6C4D1CF80771EF845766596 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		4C5309466DE50CA169B15A754F936703 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		4C5C9E0FC6E1777638614E9D4BDB2B3A /* Pods-NightmaresTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NightmaresTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D5869E98128886A7B150E2DF3222785 /* Pods-NightmaresUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NightmaresUITests-umbrella.h"; sourceTree = "<group>"; };
+		4EE738E674D920435D80DA1143F918A6 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		65CFCFAEB1588F2D5A2A4F4B18E683EE /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		685763E94EFB56A907AF403D0B795251 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		6AF964978CE246B49D63B3E3EBC033E0 /* Pods-NightmaresTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NightmaresTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		814086435D35787CA52D1625750B9761 /* Pods_Nightmares.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nightmares.framework; path = "Pods-Nightmares.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B9170B927314DA89799D7542D4B7ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9640B6B284838394FF78C3E0B4D1EAE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970D7F87A590564548A61661C1954652 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		9F59955AD04FFB7B40E6D616CAEF93F6 /* Pods-Nightmares.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Nightmares.modulemap"; sourceTree = "<group>"; };
+		A8F6A2EE37F9A78C526047D3CE99885F /* Pods-NightmaresUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NightmaresUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		AB7BE5B26BB918EF04AC43C86FD69A0A /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		AC6AB5983422D51E4577226940D69E3B /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		ACC1B477683825DB1F2A8D239B9BC56B /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		B03449D906A487CAF9FD77372645DA3E /* Pods-Nightmares.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightmares.release.xcconfig"; sourceTree = "<group>"; };
+		B48E41C1701463DF8F78E77D4833B228 /* Pods-NightmaresTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NightmaresTests-frameworks.sh"; sourceTree = "<group>"; };
+		B52B4770F34AF0B18CE182BA3F24ADC9 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		B6911152D92B34941620C4495E8A6C9C /* Pods-Nightmares-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nightmares-umbrella.h"; sourceTree = "<group>"; };
+		BBF3D42AA620798F9F1A07B77E71FA27 /* Pods-NightmaresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NightmaresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F575662234000EA80FCB79B3447B7F /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDC0F71F89D1C5A4C81144895FFF0B35 /* Pods-NightmaresUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NightmaresUITests-resources.sh"; sourceTree = "<group>"; };
+		D330C61D47C9698106FD3CA9053FDE4F /* Pods-Nightmares-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nightmares-dummy.m"; sourceTree = "<group>"; };
+		D5828C251BD2B1F19E978BCB3374BE88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEE4B2FF5EC8E1DA6EB8983D782B689 /* Pods-NightmaresUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NightmaresUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E197871E2E157F7C75B2AAB01D1EB169 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3693996B692B50AA94DD183A8AA908B /* Pods-Nightmares-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nightmares-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7C8061EF85DC1D169B04E1B94C0033A /* Pods-NightmaresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NightmaresTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC4058A8CB6C2DD12E49D77F2D59AAE7 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33DF865512F66485655BC7BB49656AB /* Pods-NightmaresUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NightmaresUITests.modulemap"; sourceTree = "<group>"; };
+		F3822C6599FCDFEB74463CB144671D25 /* Pods-NightmaresTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NightmaresTests-dummy.m"; sourceTree = "<group>"; };
+		F5052600E36B3CFA9D58DAEEB25C71C5 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		F61B87BBC9F3F07A23E5A2E916E1146C /* Pods-NightmaresUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NightmaresUITests-dummy.m"; sourceTree = "<group>"; };
+		F6857CA437C74A08BD6C3E00D30DC833 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
+		F99214DCAF5C39CA86808099FEC0E9AE /* Pods-NightmaresTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NightmaresTests-umbrella.h"; sourceTree = "<group>"; };
+		FACE7F239C94E350ED68E632178D97FD /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E61C6F2EA75BFA176BAC56824251B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9A96DD818C807D14FF453B1DE64222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F59B1A5DD1B0345EBCFCD1D56129379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACD550598CB5FC979326616CEB0B1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A7B27FFDBB41FF57FFBF57AFC5F654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BD6B845B5824955DFC1794DC58AACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1E4C2798FB198D13C9F041A91CD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8920EBC02901845BE78E5F6DB6638945 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D42065E91C742060B6041633C39926 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E197871E2E157F7C75B2AAB01D1EB169 /* Info.plist */,
+				F5052600E36B3CFA9D58DAEEB25C71C5 /* PopupDialog.modulemap */,
+				1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */,
+				65CFCFAEB1588F2D5A2A4F4B18E683EE /* PopupDialog-dummy.m */,
+				AB7BE5B26BB918EF04AC43C86FD69A0A /* PopupDialog-prefix.pch */,
+				C6F575662234000EA80FCB79B3447B7F /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		303922AFD6212D15424E47F5795E5D9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				846D915CB018D6C01DEEA93B6469781F /* Pods-Nightmares */,
+				FCDB4498A66B9B1B94AA31BB8F68609A /* Pods-NightmaresTests */,
+				42434CBE436538611F946FD7D4262C86 /* Pods-NightmaresUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42434CBE436538611F946FD7D4262C86 /* Pods-NightmaresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5828C251BD2B1F19E978BCB3374BE88 /* Info.plist */,
+				F33DF865512F66485655BC7BB49656AB /* Pods-NightmaresUITests.modulemap */,
+				034A4A55A18DF7BD2A9ED451C8F98619 /* Pods-NightmaresUITests-acknowledgements.markdown */,
+				A8F6A2EE37F9A78C526047D3CE99885F /* Pods-NightmaresUITests-acknowledgements.plist */,
+				F61B87BBC9F3F07A23E5A2E916E1146C /* Pods-NightmaresUITests-dummy.m */,
+				32DEB022107A15F570B24DE94D82634C /* Pods-NightmaresUITests-frameworks.sh */,
+				CDC0F71F89D1C5A4C81144895FFF0B35 /* Pods-NightmaresUITests-resources.sh */,
+				4D5869E98128886A7B150E2DF3222785 /* Pods-NightmaresUITests-umbrella.h */,
+				DAEE4B2FF5EC8E1DA6EB8983D782B689 /* Pods-NightmaresUITests.debug.xcconfig */,
+				0D3736578870D4168EBDAD205DA66ABF /* Pods-NightmaresUITests.release.xcconfig */,
+			);
+			name = "Pods-NightmaresUITests";
+			path = "Target Support Files/Pods-NightmaresUITests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E240431E22B64A30967D1D9C88F41A63 /* Pods */,
+				FB21F4820D00BA71823A6157FD132E9E /* Products */,
+				303922AFD6212D15424E47F5795E5D9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		846D915CB018D6C01DEEA93B6469781F /* Pods-Nightmares */ = {
+			isa = PBXGroup;
+			children = (
+				90B9170B927314DA89799D7542D4B7ED /* Info.plist */,
+				9F59955AD04FFB7B40E6D616CAEF93F6 /* Pods-Nightmares.modulemap */,
+				E3693996B692B50AA94DD183A8AA908B /* Pods-Nightmares-acknowledgements.markdown */,
+				41F610C42EBBB71176FD6A3A80ECB7B4 /* Pods-Nightmares-acknowledgements.plist */,
+				D330C61D47C9698106FD3CA9053FDE4F /* Pods-Nightmares-dummy.m */,
+				0C14EFD8D3E797080DDD6CC06A29CCCE /* Pods-Nightmares-frameworks.sh */,
+				41C010FB6A31F8B70BB6A242C3EE8744 /* Pods-Nightmares-resources.sh */,
+				B6911152D92B34941620C4495E8A6C9C /* Pods-Nightmares-umbrella.h */,
+				09EAFD63940638C95AE58C72EFCC980E /* Pods-Nightmares.debug.xcconfig */,
+				B03449D906A487CAF9FD77372645DA3E /* Pods-Nightmares.release.xcconfig */,
+			);
+			name = "Pods-Nightmares";
+			path = "Target Support Files/Pods-Nightmares";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF02D39A593DDED4C0AE276887FDD7E6 /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				03D358A3613EB08F0370C32C0BAC75DD /* FXBlurView.h */,
+				F6857CA437C74A08BD6C3E00D30DC833 /* FXBlurView.m */,
+				49682067F6C4D1CF80771EF845766596 /* InteractiveTransition.swift */,
+				34F479277725D5005EF246CDC4917C38 /* PopupDialog.swift */,
+				ACC1B477683825DB1F2A8D239B9BC56B /* PopupDialog+Keyboard.swift */,
+				171ED3B961E5C77913A4C2B460F11C89 /* PopupDialogButton.swift */,
+				0AA81510A571388638680BCB7AD583B1 /* PopupDialogContainerView.swift */,
+				B52B4770F34AF0B18CE182BA3F24ADC9 /* PopupDialogDefaultButtons.swift */,
+				09A9B644D4179C6A3AC023E41E1CA839 /* PopupDialogDefaultView.swift */,
+				AC6AB5983422D51E4577226940D69E3B /* PopupDialogDefaultViewController.swift */,
+				22B1B7DEB5C0B9219AB7DDF2BFD82D14 /* PopupDialogOverlayView.swift */,
+				070A59B2F0AC779785004CD295BA5927 /* PresentationController.swift */,
+				970D7F87A590564548A61661C1954652 /* PresentationManager.swift */,
+				4C5309466DE50CA169B15A754F936703 /* TransitionAnimations.swift */,
+				FACE7F239C94E350ED68E632178D97FD /* TransitionAnimator.swift */,
+				685763E94EFB56A907AF403D0B795251 /* UIImageView+Calculations.swift */,
+				4EE738E674D920435D80DA1143F918A6 /* UIView+Animations.swift */,
+				AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */,
+				25D42065E91C742060B6041633C39926 /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		E240431E22B64A30967D1D9C88F41A63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF02D39A593DDED4C0AE276887FDD7E6 /* PopupDialog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB21F4820D00BA71823A6157FD132E9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814086435D35787CA52D1625750B9761 /* Pods_Nightmares.framework */,
+				44FB7FB8E56C689881DAB866AD37BA5E /* Pods_NightmaresTests.framework */,
+				377A66128D697F1AB214C90D366AF7F2 /* Pods_NightmaresUITests.framework */,
+				EC4058A8CB6C2DD12E49D77F2D59AAE7 /* PopupDialog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDB4498A66B9B1B94AA31BB8F68609A /* Pods-NightmaresTests */ = {
+			isa = PBXGroup;
+			children = (
+				9640B6B284838394FF78C3E0B4D1EAE6 /* Info.plist */,
+				19F7254F183418D1C0BC66F2DE0BDD2D /* Pods-NightmaresTests.modulemap */,
+				6AF964978CE246B49D63B3E3EBC033E0 /* Pods-NightmaresTests-acknowledgements.markdown */,
+				4C5C9E0FC6E1777638614E9D4BDB2B3A /* Pods-NightmaresTests-acknowledgements.plist */,
+				F3822C6599FCDFEB74463CB144671D25 /* Pods-NightmaresTests-dummy.m */,
+				B48E41C1701463DF8F78E77D4833B228 /* Pods-NightmaresTests-frameworks.sh */,
+				435F2A7AED8D9260FE0C5712589AEC09 /* Pods-NightmaresTests-resources.sh */,
+				F99214DCAF5C39CA86808099FEC0E9AE /* Pods-NightmaresTests-umbrella.h */,
+				BBF3D42AA620798F9F1A07B77E71FA27 /* Pods-NightmaresTests.debug.xcconfig */,
+				E7C8061EF85DC1D169B04E1B94C0033A /* Pods-NightmaresTests.release.xcconfig */,
+			);
+			name = "Pods-NightmaresTests";
+			path = "Target Support Files/Pods-NightmaresTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69951769198ECFB49DF98EBBD50D6B9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F86C358D1E51E88508157226F1AC1 /* Pods-NightmaresTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0CCDCE6520D25A1D39C8BFB498DF4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7249C52653225BE63F0828FDDADC2461 /* Pods-NightmaresUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A4CEA1961C320BB92DF9669A80005 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FEAFC5CB8FB1EEEB7C9D8CFAB33B13 /* Pods-Nightmares-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F2C003063543AF9DCBEAEFE80F80CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB22E1E2F70BC1202CC7F0ED5EBCE05 /* FXBlurView.h in Headers */,
+				4A22ADB6338B693667D0B55F7DF891AB /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AC99ACC0312B65A4E8AC5EE3EF88816 /* Pods-NightmaresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02D4E625D7B3189A54DCBE96C2C20D7 /* Build configuration list for PBXNativeTarget "Pods-NightmaresTests" */;
+			buildPhases = (
+				B96A3A1A40C92A0ACE11B904A0C85576 /* Sources */,
+				03E61C6F2EA75BFA176BAC56824251B2 /* Frameworks */,
+				69951769198ECFB49DF98EBBD50D6B9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NightmaresTests";
+			productName = "Pods-NightmaresTests";
+			productReference = 44FB7FB8E56C689881DAB866AD37BA5E /* Pods_NightmaresTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54FAF28257030791B47BF124F267E985 /* Pods-NightmaresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60D02532D983993973C5CF237FCB092 /* Build configuration list for PBXNativeTarget "Pods-NightmaresUITests" */;
+			buildPhases = (
+				8A8577DCB07A8106FD22C3957784891E /* Sources */,
+				CEF1E4C2798FB198D13C9F041A91CD3F /* Frameworks */,
+				6A0CCDCE6520D25A1D39C8BFB498DF4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NightmaresUITests";
+			productName = "Pods-NightmaresUITests";
+			productReference = 377A66128D697F1AB214C90D366AF7F2 /* Pods_NightmaresUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		800BE0E578690157CE94E89DD1028FC6 /* Pods-Nightmares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F296829D2520D2AECDC6BF40F4384A5 /* Build configuration list for PBXNativeTarget "Pods-Nightmares" */;
+			buildPhases = (
+				73B556BAB81DC9566381F175B9EC2450 /* Sources */,
+				B9A7B27FFDBB41FF57FFBF57AFC5F654 /* Frameworks */,
+				A70A4CEA1961C320BB92DF9669A80005 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111864AF7CDD7815251AEFAF69F5B83F /* PBXTargetDependency */,
+			);
+			name = "Pods-Nightmares";
+			productName = "Pods-Nightmares";
+			productReference = 814086435D35787CA52D1625750B9761 /* Pods_Nightmares.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA970C7CA99412A611BFBEBE97925B86 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA32F56E6F22B4474EC5101A3AA9254C /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				EAB89E8F7E816B24453D196F97C3EA33 /* Sources */,
+				8F59B1A5DD1B0345EBCFCD1D56129379 /* Frameworks */,
+				C4F2C003063543AF9DCBEAEFE80F80CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = EC4058A8CB6C2DD12E49D77F2D59AAE7 /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FB21F4820D00BA71823A6157FD132E9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800BE0E578690157CE94E89DD1028FC6 /* Pods-Nightmares */,
+				2AC99ACC0312B65A4E8AC5EE3EF88816 /* Pods-NightmaresTests */,
+				54FAF28257030791B47BF124F267E985 /* Pods-NightmaresUITests */,
+				AA970C7CA99412A611BFBEBE97925B86 /* PopupDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73B556BAB81DC9566381F175B9EC2450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355749023092DF24DA23B5951C4F8D42 /* Pods-Nightmares-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8577DCB07A8106FD22C3957784891E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7737F9704C16A2C3C379D721B68D9E3 /* Pods-NightmaresUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A3A1A40C92A0ACE11B904A0C85576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595E34C07A276063E72BEEAFE14A4487 /* Pods-NightmaresTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB89E8F7E816B24453D196F97C3EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56AF6E46E6249CAF543D2D2DF480142 /* FXBlurView.m in Sources */,
+				6250BDEB086A60CE5D9E3C96DFA394C3 /* InteractiveTransition.swift in Sources */,
+				0F0EA609719A73F2AD3251E2ED91FCA2 /* PopupDialog+Keyboard.swift in Sources */,
+				356D652945CE828C6C2FF5F8E7F14702 /* PopupDialog-dummy.m in Sources */,
+				405C7FDCD420FF72F5C690F24E2B6B9C /* PopupDialog.swift in Sources */,
+				C81710B1AA457B39BA74DD376E41497C /* PopupDialogButton.swift in Sources */,
+				88730E7B238AA0C6AB6E43573513B29E /* PopupDialogContainerView.swift in Sources */,
+				1A31DC6AC7E918B78202BB4421E3C439 /* PopupDialogDefaultButtons.swift in Sources */,
+				650D627F785802E45DFD67DA7C12CB78 /* PopupDialogDefaultView.swift in Sources */,
+				C4AEC3D10F6FD6EBF0478B1CE3692500 /* PopupDialogDefaultViewController.swift in Sources */,
+				D6798FC2CB13BC0FCC85EFB92A9442F0 /* PopupDialogOverlayView.swift in Sources */,
+				19AE2E7AE72E3CA9DDE61942C1D41F9F /* PresentationController.swift in Sources */,
+				7016D7613322EE2598EEDFEB0C83E342 /* PresentationManager.swift in Sources */,
+				41EE87A55E249349671727D1A586FA8B /* TransitionAnimations.swift in Sources */,
+				BC47E49913FF7320412AA7053E8E786B /* TransitionAnimator.swift in Sources */,
+				81289DE2FA56CFEDDC5C4943336538B5 /* UIImageView+Calculations.swift in Sources */,
+				CEEFC36CF7975DD70DB5B733DD6DDCB1 /* UIView+Animations.swift in Sources */,
+				976B8B6B7F579353BDDFC38C9475B01E /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111864AF7CDD7815251AEFAF69F5B83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = AA970C7CA99412A611BFBEBE97925B86 /* PopupDialog */;
+			targetProxy = BA406276BF9C45AA5CA3D9168A321424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26D86B681D740C1FF65331DB7C7459DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3736578870D4168EBDAD205DA66ABF /* Pods-NightmaresUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NightmaresUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NightmaresUITests/Pods-NightmaresUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NightmaresUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2913F173FEE8AF00A003EB8184811B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF3D42AA620798F9F1A07B77E71FA27 /* Pods-NightmaresTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NightmaresTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NightmaresTests/Pods-NightmaresTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NightmaresTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39AD69D081546A540A160B6A1FD6450A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EAFD63940638C95AE58C72EFCC980E /* Pods-Nightmares.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightmares/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nightmares/Pods-Nightmares.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nightmares;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53B6D206DBB801FBC55839A3389262EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEE4B2FF5EC8E1DA6EB8983D782B689 /* Pods-NightmaresUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NightmaresUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NightmaresUITests/Pods-NightmaresUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NightmaresUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B301D35BDBDA165BB6A113DFB1F7DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03449D906A487CAF9FD77372645DA3E /* Pods-Nightmares.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightmares/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nightmares/Pods-Nightmares.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nightmares;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86E4AE40CF5F8376BE31B420234B8D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C8061EF85DC1D169B04E1B94C0033A /* Pods-NightmaresTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NightmaresTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NightmaresTests/Pods-NightmaresTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NightmaresTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9488EA4C7D572B8DE99E2112433D50CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABB1E60CB2F433D5F981ADB2A01A636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F296829D2520D2AECDC6BF40F4384A5 /* Build configuration list for PBXNativeTarget "Pods-Nightmares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AD69D081546A540A160B6A1FD6450A /* Debug */,
+				7B301D35BDBDA165BB6A113DFB1F7DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60D02532D983993973C5CF237FCB092 /* Build configuration list for PBXNativeTarget "Pods-NightmaresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B6D206DBB801FBC55839A3389262EC /* Debug */,
+				26D86B681D740C1FF65331DB7C7459DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02D4E625D7B3189A54DCBE96C2C20D7 /* Build configuration list for PBXNativeTarget "Pods-NightmaresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2913F173FEE8AF00A003EB8184811B62 /* Debug */,
+				86E4AE40CF5F8376BE31B420234B8D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA32F56E6F22B4474EC5101A3AA9254C /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9488EA4C7D572B8DE99E2112433D50CC /* Debug */,
+				ABB1E60CB2F433D5F981ADB2A01A636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
